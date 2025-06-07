@@ -1,0 +1,20 @@
+{
+  "name": "@aerobytes/miku",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "bun build src/index.ts --outdir dist --target bun"
+  },
+  "exports": {
+    "import": "./dist/index.js",
+    "require": "./dist/index.js"
+  },
+  "dependencies": {
+    "@aerobytes/miku": "^1.0.0",
+    "@types/node": "^22.15.30",
+    "chalk": "^5.4.1",
+    "discord.js": "^14.19.3"
+  }
+}
